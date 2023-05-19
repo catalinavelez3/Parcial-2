@@ -11,7 +11,8 @@ import { PartidoModule } from './partido/partido.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PartidoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

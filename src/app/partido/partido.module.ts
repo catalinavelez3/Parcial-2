@@ -6,6 +6,7 @@ import { PartidoComponent } from './partido.component';
   imports: [
     CommonModule
   ],
-  declarations: [PartidoComponent]
+  declarations: [PartidoComponent],
+  exports : [PartidoComponent]
 })
 export class PartidoModule { }
