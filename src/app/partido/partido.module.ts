@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PartidoComponent } from './partido.component';
+import { PartidoListComponent } from './partido-list/partido-list.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [PartidoComponent],
-  exports : [PartidoComponent]
+  exports: [PartidoListComponent],
+  declarations: [PartidoListComponent]
 })
 export class PartidoModule { }

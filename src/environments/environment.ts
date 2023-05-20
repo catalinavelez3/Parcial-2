@@ -2,9 +2,19 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+
+const baseUrl =
+  'https://worldcup-c4988-default-rtdb.firebaseio.com/matches.json'
+
+const baseUrl2 =
+  'https://worldcup-c4988-default-rtdb.firebaseio.com/teams.json'
+
 export const environment = {
-  production: false
+  production: false,
+  baseUrl,
+  baseUrl2
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file

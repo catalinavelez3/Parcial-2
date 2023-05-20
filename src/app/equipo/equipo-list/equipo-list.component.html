@@ -1,0 +1,22 @@
+<div class="col-6">
+  <table class="equipos">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>País</th>
+        <th>Grupo</th>
+        <th>Puntos</th>
+        <th>Juegos Jugados</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let equipo of equipos">
+        <td>{{ equipo.name }}</td>
+        <td>{{ equipo.country }}</td>
+        <td>{{ equipo.group_letter }}</td>
+        <td>{{ equipo.group_points }}</td>
+        <td>{{ equipo.games_played }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

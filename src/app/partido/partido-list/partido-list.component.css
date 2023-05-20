@@ -1,0 +1,48 @@
+/* Estilos de la tabla */
+.partido-table {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Estilos de los encabezados de columna */
+.partido-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Estilos de las celdas de datos */
+.partido-table td {
+  padding: 8px;
+}
+
+/* Estilos para resaltar las filas al pasar el mouse */
+.partido-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Estilos de la tabla */
+.goles-Por-Pais {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Estilos de los encabezados de columna */
+.goles-Por-Pais th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Estilos de las celdas de datos */
+.goles-Por-Pais td {
+  padding: 8px;
+}
+
+/* Estilos para resaltar las filas al pasar el mouse */
+.goles-Por-Pais tbody tr:hover {
+  background-color: #f9f9f9;
+}
+

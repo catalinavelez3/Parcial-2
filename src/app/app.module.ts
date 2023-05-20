@@ -4,6 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PartidoModule } from './partido/partido.module';
+import { HomeTeamModule } from './homeTeam/homeTeam.module';
+import { AwayTeamModule } from './awayTeam/awayTeam.module';
+import { HttpClientModule } from '@angular/common/http';
+import { EquipoModule } from './equipo/equipo.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +16,11 @@ import { PartidoModule } from './partido/partido.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PartidoModule
+    PartidoModule,
+    HomeTeamModule,
+    AwayTeamModule,
+    HttpClientModule,
+    EquipoModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

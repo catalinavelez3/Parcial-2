@@ -1,0 +1,55 @@
+
+
+
+<table class="partido-table">
+   <thead>
+    <tr>
+      <th>Attendance</th>
+      <th>Away Team</th>
+      <th>Away Team Country</th>
+      <th>Date and Time</th>
+      <th>Home Team</th>
+      <th>Home Team Country</th>
+      <th>Location</th>
+      <th>Stage Name</th>
+      <th>Status</th>
+      <th>Venue</th>
+      <th>Winner</th>
+      <th>Winner Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let partido of partidos">
+      <td>{{ partido.attendance }}</td>
+      <td>{{ partido.away_team.name }}</td>
+      <td>{{ partido.away_team_country }}</td>
+      <td>{{ partido.datetime }}</td>
+      <td>{{ partido.home_team.name }}</td>
+      <td>{{ partido.home_team_country }}</td>
+      <td>{{ partido.location }}</td>
+      <td>{{ partido.stage_name }}</td>
+      <td>{{ partido.status }}</td>
+      <td>{{ partido.venue }}</td>
+      <td>{{ partido.winner }}</td>
+      <td>{{ partido.winner_code }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="goles-Por-Pais">
+  <thead>
+    <tr>
+      <th>País</th>
+      <th>Goles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let i of golesPorPais">
+      <td>{{ i.pais }}</td>
+      <td>{{ i.goles }}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
